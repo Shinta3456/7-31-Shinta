@@ -1,3 +1,264 @@
-body {
-    background-color: rgb(255, 196, 0);
+.bg-danger {
+    background-color: #6BB8A1!important;
 }
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.a {
+    position: absolute;
+    left: 100px;
+    top: 200px;
+    font-size: 50px;
+}
+.a2 {
+    position: absolute;
+    left: 580px;
+    top: 700px;
+    font-size: 35px;
+}
+.b {
+    position: absolute;
+    left: 100px;
+    top: 450px;
+    font-family: sans-serif;
+}
+.b2 {
+    position: absolute;
+    left: 600px;
+    top: 750px;
+}
+
+.c {
+    position: absolute;
+    border-radius: 5px;
+    background-color: #5B68FD;
+    border-color: #5B68FD;
+    color: white;
+    left: 100px;
+    top: 500px;
+}
+.gambar1 {
+    position: absolute;
+    top: 170px;
+    left: 600px;
+}
+.gambar2 {
+    position: absolute;
+    top: 775px;
+    left: 350px;
+    size: smaller;
+}
+.gambar3 {
+    position: absolute;
+    top: 900px;
+    left: 285px;
+    size: smaller;
+}
+.gambar4 {
+    position: absolute;
+    top: 900px;
+    left: 685px;
+    size: smaller;
+}
+.gambar5 {
+    position: absolute;
+    top: 900px;
+    left: 1020px;
+    size: smaller;
+}
+.box1 {
+    width:1100px;
+    height:120px;
+    background:#423849;
+    border-radius: 10px;
+    position: absolute;
+    left: 165px;
+    top: 820px;
+
+}
+.box2 {
+    width:170px;
+    height:220px;
+    background:#80F0CF;
+    border-radius: 5px;
+    position: absolute;
+    left: 260px;
+    top: 870px;
+}
+.box3 {
+    width:170px;
+    height:220px;
+    background:#80F0CF;
+    border-radius: 5px;
+    position: absolute;
+    left: 640px;
+    top: 870px;
+}
+.box4 {
+    width:170px;
+    height:220px;
+    background:#80F0CF;
+    border-radius: 5px;
+    position: absolute;
+    left: 990px;
+    top: 870px;
+}
+.d1 {
+    position: absolute;
+    left: 20.5%;
+    top: 130%;
+    font-style: normal;
+    font-size: 20px;
+}
+.d2 {
+    position: absolute;
+    left: 47%;
+    top: 130%;
+    font-style: normal;
+    font-size: 20px;
+}
+.d3 {
+    position: absolute;
+    left: 70.5%;
+    top: 130%;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.button1 {
+    position: absolute;
+    border-radius: 5px;
+    background-color: #6BB8A1;
+    border-color: #6BB8A1;
+    color: white;
+    left: 20%;
+    top: 136%;
+    width: 109px;
+    height: 35px;
+}
+.button2 {
+    position: absolute;
+    border-radius: 5px;
+    background-color: #6BB8A1;
+    border-color: #6BB8A1;
+    color: white;
+    left: 46.7%;
+    top: 136%;
+    width: 109px;
+    height: 35px;
+}
+.button3 {
+    position: absolute;
+    border-radius: 5px;
+    background-color: #6BB8A1;
+    border-color: #6BB8A1;
+    color: white;
+    left: 70.8%;
+    top: 136%;
+    width: 109px;
+    height: 35px;
+}
+
+/*#########################GALLERY##############################*/
+
+.boxgallery1 {
+    position: absolute;
+    background-color: #80F0CF;
+    width: 1101px;
+    height: 300px;
+    border-radius: 12px;
+    left: 140px;
+    top: 100px;
+
+}
+.boxgallery2 {
+    position: absolute;
+    background-color: #423849;
+    width: 510px;
+    height: 300px;
+    border-radius: 12px;
+    left: 54%;
+    top: 239px;
+
+}
+.cactus {
+    position: absolute;
+    top: 200px;
+    left: 57%;
+    width: 500px;
+    height: 300px;
+    border-radius: 12px;
+}
+.paga1 {
+    position: absolute;
+    top: 150px;
+    left: 200px;
+}
+
+.paga2 {
+    position: absolute;
+    top: 220px;
+    left: 200px;
+
+}
+
+.butt1 {
+    position: absolute;
+    border-radius: 5px;
+    background-color: #6BB8A1;
+    border-color: #6BB8A1;
+    color: white;
+    left: 15.8%;
+    top: 47%;
+    width: 209px;
+    height: 60px;
+    font-size: x-large;
+}
+
+.butt2 {
+    position: absolute;
+    border-radius: 5px;
+    background-color: #6BB8A1;
+    border-color: #6BB8A1;
+    color: white;
+    left: 15.8%;
+    top: 58%;
+    width: 209px;
+    height: 60px;
+    font-size: x-large;
+}
+.butt3 {
+    position: absolute;
+    border-radius: 5px;
+    background-color: #6BB8A1;
+    border-color: #6BB8A1;
+    color: white;
+    left: 15.8%;
+    top: 69%;
+    width: 209px;
+    height: 60px;
+    font-size: x-large;
+}
+.butt4 {
+    position: absolute;
+    border-radius: 5px;
+    background-color: #6BB8A1;
+    border-color: #6BB8A1;
+    color: white;
+    left: 15.8%;
+    top: 80%;
+    width: 209px;
+    height: 60px;
+    font-size: x-large;
+}
+ .bg2 {
+     position: absolute;
+     left: 100px;
+     top: 60px;
+     width: 1000px;
+     height: 700px;
+ }
+
+ 
