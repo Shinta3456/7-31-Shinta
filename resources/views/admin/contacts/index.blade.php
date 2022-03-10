@@ -1,6 +1,9 @@
 @extends('layouts.app')
 @section('title', 'Shinta | Dashboard')
 @section('content')
+<head>
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+</head>
 <div class="main-content">
                 <div class="section__content section__content--p30">
                     <div class="container-fluid">
@@ -36,7 +39,9 @@
                                                 <td>{{$contact->email}}</td>
                                                 <td>{{$contact->pesan}}</td>
                                                 <td>
-                                                    <a href="{{route('contacts.edit', $contact->id)}}">Edit</a>
+                                                    <a href="{{route('contacts.edit', $contact->id)}}">hapus</a>
+                                                    |
+                                                    <a href="{{route('contacts.destroy', $contact->id)}}">Edit</a>
                                                 </td>
                                                 
                                             </tr>

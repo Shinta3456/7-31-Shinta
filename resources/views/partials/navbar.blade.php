@@ -18,7 +18,7 @@
         </li>
         
         <li class="nav-item">
-        <a class="nav-link {{ ($title === 'Contacts') ? 'active' : '' }} " href="/contacts">Contacts</a>
+        <a class="nav-link {{ ($title === 'Contacts') ? 'active' : '' }} " href="{{route('contacts.create')}}">Contacts</a>
         </li>
 
       </ul>

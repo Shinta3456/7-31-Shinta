@@ -13,7 +13,7 @@
                                 </div>
                                 <div class="card-body card-block">
                                     <form action="{{ route('contacts.update', $contact->id)}}" method="post" class="">
-                                        {{csrf_filed()}}
+                                        {{csrf_field()}}
                                         <div class="form-group">
                                             <label for="nf-email" class=" form-control-label">Nama</label>
                                             <input type="text" name="nama" class="form-control" value="{{ $contact->nama }}">
@@ -23,11 +23,11 @@
                                             <input type="email" name="email" class="form-control" value="{{ $contact->email}}">
                                         <div class="form-group">
                                             <label for="nf-password" class=" form-control-label">Pesan</label>
-                                            <textarea name="pesan">{{ $contact->pesan}}"</textarea>
+                                            <textarea name="pesan" class="form-control">{{ $contact->pesan}}"</textarea>
                                         </div>
                                         <div class="card-footer">
                                             <button type="submit" class="btn btn-primary btn-sm">
-                                                <i class="fa fa-dot-circle-o"></i> Ubah
+                                                <i class="fa fa-dot-circle-o">Ubah</i> 
                                             </button>
                                         </div>
                                     </form>
