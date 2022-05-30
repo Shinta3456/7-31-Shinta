@@ -34,8 +34,8 @@
                                 <i class="fas fa-table"></i>Tables</a>
                         </li>
                         <li>
-                            <a href="form.html">
-                                <i class="far fa-check-square"></i>Forms</a>
+                            <a href="{{ route('upImage.index')}}">
+                                <i class="far fa-check-square"></i>Forms Up</a>
                         </li>
                         <li>
                             <a href="calendar.html">

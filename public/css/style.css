@@ -260,5 +260,15 @@ body {
      width: 1000px;
      height: 700px;
  }
-
+/*index*/
+.pusat{
+    margin-block-start: 12%;
+    margin-left: 0%;
+}
+.font1{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.font2{
+    font-family: 'Nanum Gothic', sans-serif;
+}
  

@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\UploadGambarController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -35,10 +37,11 @@ Route::get('/about', function () {
   });
 
   Route::get('/gallery', function () {
-    return view('gallery',[
+    return view('gallery', [
       "title" => "Gallery"
     ]);
   });
+  
 
   //Route::resource('/contacts',ContactController::class);
   Route::get('/contacts/create', [ContactController::class, 'create'])->name('contacts.create');
@@ -50,8 +53,13 @@ Route::group(['middleware' => ['auth']], function(){
   Route::get('/contacts/index', [ContactController::class, 'index'])->name('contacts.index');
   Route::get('/contacts/{id}/edit', [ContactController::class, 'edit'])->name('contacts.edit');
   Route::get('/contacts/{id}/update', [ContactController::class, 'update'])->name('contacts.update');
-  Route::post('/contacts/{id}/update', [ContactController::class, 'update'])->name('contacts.update');
   Route::post('/contacts/{id}/destroy', [ContactController::class, 'destroy'])->name('contacts.destroy');
+
+  Route::get('/upImage/index', [UploadGambarController::class, 'index'])->name('upImage.index');
+  Route::get('/upImage/createGambar', [UploadGambarController::class, 'create'])->name('upImage.createGambar');
+  Route::post('/upImage/createGambar', [UploadGambarController::class, 'store'])->name('upImage.createGambar');
+  Route::get('/upImage/{id}/edit', [UploadGambarController::class, 'edit'])->name('upImage.edit');
+  Route::post('/upImage/{id}/destroy', [UploadGambarController::class, 'destroy'])->name('upImage.destroy');
 });
 
 //Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
